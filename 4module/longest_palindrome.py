@@ -10,6 +10,6 @@ def longest_palindrome(input_string):
         lonPal = temp
     
   # add the letter to string and check if pali
-  return lonPal
+  return lonPal 
 
 print(longest_palindrome("i want to be a racecar driver"))
