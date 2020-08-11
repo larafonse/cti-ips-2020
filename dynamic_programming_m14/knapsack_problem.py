@@ -1,5 +1,3 @@
-# Returns the maximum value that can be put in a knapsack of 
-# capacity W 
 def knapSack(W , wt , val , n): 
   
   cache = [[0 for _ in range(W+1)] for _ in range(n+1)]
